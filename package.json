@@ -21,6 +21,13 @@
     "electron-winstaller": "^3.0.4",
     "electron-wix-msi": "^2.1.1"
   },
+  "config": {
+    "repository": {
+      "owner": "Mathieu2301",
+      "name": "instagram-PC"
+    },
+    "prerelease": true
+  },
   "build": {
     "appId": "instagram.pc",
     "copyright": "none",
