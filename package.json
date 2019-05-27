@@ -1,0 +1,32 @@
+{
+  "name": "instagram-pc",
+  "version": "1.0.0",
+  "description": "Instagram for PC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . instagram-pc --all",
+    "build-win": "electron-packager . instagram-pc --platform=win32"
+  },
+  "repository": "https://github.com/Mathieu2301/instagram-PC",
+  "keywords": [
+    "instagram",
+    "for",
+    "pc",
+    "emulator"
+  ],
+  "author": "Mathieu Colmon",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^5.0.2",
+    "electron-wix-msi": "^2.1.1"
+  },
+  "build": {
+    "appId": "instagram.pc",
+    "copyright": "none",
+    "productName": "instagrampc",
+    "forceCodeSigning": true,
+    "electronVersion": "5.0.2"
+  },
+  "dependencies": {}
+}
