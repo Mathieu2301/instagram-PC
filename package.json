@@ -22,6 +22,14 @@
     "electron-wix-msi": "^2.1.1"
   },
   "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-zip"
+        }
+      ]
+    },
     "repository": {
       "owner": "Mathieu2301",
       "name": "instagram-PC"
